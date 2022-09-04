@@ -1,9 +1,10 @@
 /** @format */
 
-function PlaceDetails() {
+function PlaceDetails({restau}) {
+
     return (
       <>
-        <h1>PlaceDetails</h1>
+        <h1>{restau.name}</h1>
       </>
     );
   }

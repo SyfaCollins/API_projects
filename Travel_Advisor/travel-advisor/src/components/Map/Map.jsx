@@ -11,7 +11,7 @@ function Map() {
   const classes = useStyles();
   const isMobile = useMediaQuery("min-width-600px");
 
-  const coordinates = { lat: 0, lng: 0 };
+  const coordinates = { lat: 1.37073, lng: 32.30324 };
 
   return (
     <div className={classes.mapContainer}>
