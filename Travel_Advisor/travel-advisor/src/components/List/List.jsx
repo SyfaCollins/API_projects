@@ -61,7 +61,7 @@ function List() {
       <Grid container spacing={3} className={classes.list}>
         {restau?.map((place, i) => (
           <Grid item key={i} xs={12}>
-            <PlaceDetails restau={place}/>
+            <PlaceDetails restau={place} />
           </Grid>
         ))}
       </Grid>
