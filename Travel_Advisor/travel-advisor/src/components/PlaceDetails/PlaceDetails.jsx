@@ -1,13 +1,12 @@
 /** @format */
 
-function PlaceDetails({restau}) {
+function PlaceDetails({ restau }) {
+  return (
+    <>
+      <img src={restau.img} alt="" />
+      <h1>{restau.name}</h1>
+    </>
+  );
+}
 
-    return (
-      <>
-        <h1>{restau.name}</h1>
-      </>
-    );
-  }
-  
-  export default PlaceDetails;
-  
+export default PlaceDetails;
